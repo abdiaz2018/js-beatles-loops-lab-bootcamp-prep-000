@@ -8,7 +8,7 @@ function theBeatlesPlay(musicians, instruments) {
 }
 function johnLennonFacts() {
   var facts = ["While on tour, he enjoyed playing Monopoly", "Harmonica was the first instrument Lennon learned to play"];
-  myfunction.apply(this, facts)
+  johnLennonFacts.apply(this, facts)
   var array = [];
   var i = 0;
   while (array.length < facts.length) {
